@@ -2,6 +2,9 @@
 
 Bu repo, distopik bir evrende bulunan hayali Dreamscape Hotel'in web sitesinin front-end tasarımını içerir. Bu patika.dev deki front-end eğitiminde bulunan CSS ödevi için yapılmıştır(Yeni şeyler öğrendikçe geliştirmeyi planladığım bir proje).Projeyi incelemek, geliştirmek ve katkıda bulunmak isterseniz lütfen çekinmeyin.
 
+<img width="1279" alt="image" src="https://github.com/Anpuu/Dreamscape-web/assets/71339489/54dde12c-083e-4865-81da-e27b6c2c7816">
+
+
 ## Proje Hakkında
 
 Dreamscape Hotel web sitesi, 4 farklı sayfadan oluşur:
