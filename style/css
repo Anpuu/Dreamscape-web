@@ -1,0 +1,211 @@
+body{
+    background-color: #0c0c0c;
+    color: #e7d8d8;
+    margin:0;
+    padding:0;
+    font-family: 'Dosis', sans-serif;
+}
+/***************** HEADER ********************/
+header{
+
+    background-color: #F39F5A; /* Başlık bölgesi arka plan rengi */
+    color: #451952; /* Başlık metin rengi */
+    padding: 10px 0;
+    display: flex;/* Bu özellik, header etiketi içindeki öğelerin yatay hizalanmasını sağlar. Yani, logo ve menü yan yana gelir.*/
+    justify-content: space-between; /* Bu özellik, header içindeki öğeleri yatayda boşluğa sığdırmak için kullanılır. Logo ve menü öğeleri space-between ile en sağa ve en sola itilir, böylece aralarında boşluk oluşur.*/
+    align-items: center; /* Bu özellik, header içindeki öğeleri dikeyde merkeze hizalar. Yani, logo ve menü öğeleri dikeyde hizalı olur.*/
+}
+
+h1 {
+    color: #daccd4; /* Başlık metin rengi */
+  }
+
+.logo img{
+
+    width: 150px;
+    height: auto;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+
+    margin-right: 20px; /* menü öğeleri arasında boşluk*/
+}
+
+nav ul li:last-child {
+    margin-right: 50px;/* Son menü öğesinin boşluğunu kaldır */
+
+}
+
+nav a {
+
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+
+}
+
+nav a:hover {
+
+    color: #FFD700; /* fare üzerine geldiğinde menüdeki linklerin rengi değişicek */
+}
+/**************** FOOTER ************************/
+footer{
+    background-color: #F39F5A;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.iletisim {
+    color: #fff;
+    padding-left: 50px;
+}
+.logo-footer img{
+    width: 150px;
+    height: auto;
+}
+
+.iletisim, .sosyal-medya {
+    padding-right: 50px;
+}
+
+.sosyal-medya a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    text-align: right;
+}
+
+.sosyal-medya a:hover {
+    color: #ffcc00;
+}
+
+/************ Rezervasyon Button *******************/
+
+.rezervasyon-btn {
+    background-color: #4CAF50; /* Düğme arka plan rengi */
+    color: white; /* Düğme üzerindeki metin rengi */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;   
+    font-weight: bold;
+    display: inline-block; 
+
+}
+.rezervasyon-btn:hover {
+    background-color: #45a049;
+}
+/********************* CONTENT ********************/
+
+.h2_lanet{
+    text-align: center;
+}
+.otel-tanitimi {
+    display: flex;
+    align-items: center; 
+    padding: 20px;
+}
+
+.icerik {
+    padding-right: 100px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #dfd3da;
+}
+
+.icerik2 {
+    font-size: 16px;
+    padding-right: 100px;
+    padding-left: 20px;
+}
+
+.resim {
+    width: 600px;
+    height: auto;
+    padding-right: 20px;
+    padding-left: 200px ;
+}
+
+.resim2 {
+    width: 600px;
+    padding-left:20px;
+    padding-right:180px;
+}
+/*************** FORM ********************/
+
+.form-container {
+    color: #d9d1dc;
+    background-color: #451952;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(153, 197, 225, 0.448);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin-bottom: 8px;
+}
+input, textarea {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    background-color: #4caf50;
+    color: wheat;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover {
+    background-color: #45a049;
+}
+/******************* Odalar **********************/
+.otel-odalari-genel {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap; /* Öğeleri sarma (wrap) özelliğini ekleyin */
+    justify-content: center; /* İçerikleri ortala */
+}
+.aile_odasi {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: calc(50% - 40px); /* 2 sütunlu düzen için genişlik ayarı */
+    box-sizing: border-box; /* Kenarlık dahil toplam genişliği hesaplar */
+    text-align: center;
+
+}
+.aile_odasi img {
+    width: 400px;
+    height: auto;
+}
+select#oda {
+    padding: 10px;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dreamscape Hotel</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700&display=swap" rel="stylesheet">    
+        <link rel="stylesheet" href="style/css">
+    </head>
+<body>
+    <!--Header Başlangıç-->
+    <header>
+        <div class="logo">
+            <img src="img/dreamscape-logo.png" alt="Dreamscape Hotel Logo">
+        </div>
+        <!--Menü Başlangıç-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Anasayfa</a></li>
+                <li><a href="odalar.html">Odalar</a></li>
+                <li><a href="rezervasyon.html">Rezervasyon</a></li>
+                <li><a href="iletisim.html">İletişim</a></li>
+            </ul>
+        </nav>
+        <!--Menü Son-->
+    </header>
+    <!--Header Son-->
+
+    <!--Section Tanıtım-->
+    <section class="rezervasyon">
+    </section>
+        <!--Bize ulaşın formu-->
+    <section class="form-container">
+        <h2 class="h2_lanet" >Lanet okuyun!</h2>
+        <form action="#" method="POST">
+                <label for="ad">Adınız:</label>
+                <input type="text" id="ad" name="ad" required>
+                
+                <label for="email">E-posta Adresiniz:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="oda">Oda tipi:</label>
+                <select name="oda" id="oda">
+                    <option value="aile_odasi1">Aile Odası(4-5 kişilik)</option>
+                    <option value="aile_odasi2">Aile Odası(4-8 kişilik)</option>
+                    <option value="aile_odasi3">Aile Odası(4-10 kişilik)</option>
+                    <option value="aile_odasi4">Aile Odası(4-12 kişilik)</option>
+                </select>
+                <label for="mesaj">Mesajınız:</label>
+                <textarea name="mesaj" id="mesaj" rows="4"></textarea>
+
+                <button type="submit">Gönder</button>
+            </form>
+    </section>        
+    <!--Form sonu-->
+    <!--Section Son-->
+    <!--footer başlangıç-->
+    <footer>
+        <div class="footer-inner">
+            <div class="iletisim">
+                <h2>İletişim</h2>
+                 <address>Adres: Hayaller dünyasında...</address>
+                 <p>Telefon:88 88 88</p>
+                 <p>E-posta</p>
+            </div>
+            <div class="logo-footer">
+                <img src="img/dreamscape-logo.png" alt="Dreamscape Hotel Logo">
+            </div>
+            <div class="sosyal-medya">
+                <a href="#">MonsterBook</a>
+                <a href="#">HolyCloud</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+    </footer>
+    <!--footer son-->
+</body>
+</html>
